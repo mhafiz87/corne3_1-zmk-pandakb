@@ -88,6 +88,22 @@
         };
     };
 
+    macros {
+        windows_taskbar: windows_taskbar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LG(B) &kp LS(TAB)>;
+            label = "WINDOWS_TASKBAR";
+        };
+
+        rdp_toolbar: rdp_toolbar {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LC(LA(HOME)) &kp TAB>;
+            label = "RDP_TOOLBAR";
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
