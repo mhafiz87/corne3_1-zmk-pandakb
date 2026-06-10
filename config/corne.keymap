@@ -133,9 +133,9 @@
 
         cursor {
             bindings = <
-&gtl0    &trans    &trans    &trans     &kp LA(LC(HOME))  &trans  &trans    &to 5      &trans     &trans     &trans   &kp BSPC
-&trans   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT         &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans   &trans
-&kp DEL  &trans    &trans    &trans     &trans            &trans  &trans    &kp PG_DN  &kp PG_UP  &kp HOME   &kp END  &trans
+&gtl0    &trans    &trans    &trans     &kp LA(LC(HOME))  &trans  &trans    &to 5      &trans     &trans     &trans              &kp BSPC
+&trans   &kp LGUI  &kp LALT  &kp LCTRL  &kp LSHFT         &trans  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &kp K_CONTEXT_MENU  &trans
+&kp DEL  &trans    &trans    &trans     &trans            &trans  &trans    &kp PG_DN  &kp PG_UP  &kp HOME   &kp END             &trans
                              &trans     &trans            &trans  &kp RET   &trans     &trans
             >;
         };
